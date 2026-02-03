@@ -14,12 +14,6 @@ body{
   color:#222;
 }
 
-.fundo-fixa{
-  height: 90px;
-  width: 100%;
-}
-
-
 header{
   top: 0;
   z-index: 1000;
@@ -75,6 +69,14 @@ header nav{
 .nav a:hover{
   opacity: 0.8;
   color:#FFB300;
+}
+
+section[id]{
+  scroll-margin-top: 100px;
+}
+
+main{
+  padding-top: 90px;
 }
 
 .hero{
