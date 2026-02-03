@@ -158,6 +158,29 @@ section + section{
   margin-top:10px;
 }
 
+.suppliers{
+  background:#fff;
+}
+
+.suppliers-grid{
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+}
+
+.supplier-card img{
+  width:120px;
+  height:auto;
+  margin:0 auto 18px;
+  display:block;
+  filter: drop-shadow(0 6px 10px rgba(0,0,0,.12));
+}
+
+.supplier-card p{
+  margin-top:12px;
+  color:#555;
+  line-height:1.5;
+  font-size:0.95rem;
+}
+
 .about{
   background:#fff;
 }
@@ -189,8 +212,72 @@ section + section{
 footer{
   background:var(--azul);
   color:#fff;
+  padding:50px 0 0;
+}
+
+.footer-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:30px;
+  align-items:start;
+}
+
+.footer-brand img{
+  width:140px;
+  margin-bottom:12px;
+}
+
+.footer-brand h3{
+  font-family:'Montserrat', sans-serif;
+  margin-bottom:10px;
+}
+
+.footer-brand p{
+  color:#d6dbe4;
+  line-height:1.6;
+}
+
+.footer-links,
+.footer-location,
+.footer-support{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+
+.footer-links h4,
+.footer-location h4,
+.footer-support h4{
+  font-family:'Montserrat', sans-serif;
+  margin-bottom:6px;
+}
+
+.footer-links a{
+  color:#fff;
+  text-decoration:none;
+  transition:opacity 0.2s ease;
+}
+
+.footer-links a:hover{
+  opacity:0.8;
+  color:var(--amarelo);
+}
+
+.footer-support a{
+  color:#fff;
+  text-decoration:none;
+}
+
+.footer-support a:hover{
+  color:var(--amarelo);
+}
+
+.footer-bottom{
+  margin-top:30px;
+  padding:18px 0;
   text-align:center;
-  padding:20px;
+  background:rgba(0,0,0,0.2);
+  font-size:0.9rem;
 }
 
 .whatsapp{
@@ -241,5 +328,17 @@ nav a.active{
 
   .logo img{
     height:42px;
+  }
+
+  .footer-brand img{
+    margin:0 auto 12px;
+  }
+
+  .footer-brand,
+  .footer-links,
+  .footer-location,
+  .footer-support{
+    text-align:center;
+    align-items:center;
   }
 }
