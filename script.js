@@ -27,7 +27,7 @@
     /* ===========================
     ANIMAÇÃO AO ROLAR A PÁGINA
     =========================== */
-    const elementos = document.querySelectorAll('.card, .technician-card, .section-title, .section-subtitle, .about p');
+    const elementos = document.querySelectorAll('.card, .section-title, .about p');
 
     const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
@@ -51,7 +51,7 @@
     /* ===========================
     INTERAÇÃO NOS CARDS
     =========================== */
-    document.querySelectorAll('.card, .technician-card').forEach(card => {
+    document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('mouseenter', () => {
         card.style.transform = 'translateY(-8px)';
         card.style.boxShadow = '0 15px 30px rgba(0,0,0,.15)';
