@@ -23,6 +23,63 @@
 
     }, 4000);
 
+    /* ===========================
+    PRODUTOS EM DESTAQUE
+    =========================== */
+    const produtos = [
+    {
+        nome: "Furadeira de Impacto 650W",
+        preco: "R$ 199,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Perfeita para concreto e alvenaria, com velocidade variável."
+    },
+    {
+        nome: "Kit Chaves Isoladas 5 Peças",
+        preco: "R$ 79,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Segurança extra para serviços elétricos com isolamento 1000V."
+    },
+    {
+        nome: "Caixa d'Água 1000L",
+        preco: "R$ 529,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Material resistente e fácil instalação para áreas externas."
+    },
+    {
+        nome: "Luva de Proteção Anticorte",
+        preco: "R$ 24,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Conforto e aderência para trabalhos de manutenção."
+    },
+    {
+        nome: "Mangueira Flexível 15m",
+        preco: "R$ 54,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Ideal para jardinagem e uso doméstico com trama reforçada."
+    },
+    {
+        nome: "Disjuntor Bipolar 40A",
+        preco: "R$ 36,90",
+        imagem: "./imagens/WhatsApp Image 2026-01-30 at 10.17.53 - Editado.jpg",
+        descricao: "Proteção eficiente para quadros de distribuição."
+    }
+    ];
+
+    const produtosGrid = document.querySelector('#produtos-grid');
+
+    if (produtosGrid) {
+    produtosGrid.innerHTML = produtos.map(produto => `
+        <div class="card product-card">
+        <img src="${produto.imagem}" alt="${produto.nome}">
+        <div>
+            <h3>${produto.nome}</h3>
+            <p class="details">${produto.descricao}</p>
+        </div>
+        <span class="price">${produto.preco}</span>
+        </div>
+    `).join('');
+    }
+
 
     /* ===========================
     ANIMAÇÃO AO ROLAR A PÁGINA
