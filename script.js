@@ -25,6 +25,85 @@
 
 
     /* ===========================
+    CATÁLOGO DE PRODUTOS
+    =========================== */
+    const catalogoProdutos = [
+    {
+        codigo: "005843",
+        imagem: "",
+        nome: "Adesivo Plástico PVC Amanco 175g com Pincel",
+        classe: "hidraulica-adesivos",
+        descricao: "Adesivo indicado para instalações hidráulicas em PVC rígido, promovendo união segura e acabamento resistente. Ideal para reparos e novas obras, oferece aplicação prática com pincel acoplado, garantindo distribuição uniforme do produto. Sua fórmula facilita o encaixe das conexões, reduz vazamentos e mantém a durabilidade do sistema mesmo em uso contínuo."
+    },
+    {
+        codigo: "009214",
+        imagem: "",
+        nome: "Conector de Emenda com Trava 32A",
+        classe: "eletrica-conectores",
+        descricao: "Conector rápido para instalações elétricas com trava de segurança, ideal para emendas de condutores em quadros e caixas de passagem. Proporciona fixação firme, reduz risco de aquecimento e otimiza a manutenção, garantindo organização e identificação dos circuitos."
+    },
+    {
+        codigo: "006552",
+        imagem: "",
+        nome: "Fita Isolante Profissional 20m",
+        classe: "eletrica-isolantes",
+        descricao: "Fita isolante com alta resistência térmica e excelente aderência, indicada para acabamentos em fios e cabos. Mantém o isolamento por mais tempo, evitando ressecamento e desprendimento em ambientes internos e externos."
+    },
+    {
+        codigo: "010338",
+        imagem: "",
+        nome: "Luva de Segurança Nitrílica",
+        classe: "epis-protecao",
+        descricao: "Luva nitrílica de alta resistência para proteção das mãos em serviços de manutenção, construção e manuseio de produtos químicos leves. Oferece conforto, flexibilidade e ótima aderência, permitindo precisão no trabalho diário."
+    },
+    {
+        codigo: "004770",
+        imagem: "",
+        nome: "Serra Copo Bi-metal 60mm",
+        classe: "ferramentas-corte",
+        descricao: "Serra copo bi-metal para cortes em metal, madeira e PVC, com excelente durabilidade e acabamento preciso. Indispensável para instalações elétricas e hidráulicas, garantindo abertura uniforme em caixas e painéis."
+    },
+    {
+        codigo: "007901",
+        imagem: "",
+        nome: "Torneira Plástica para Jardim 3/4",
+        classe: "hidraulica-conexoes",
+        descricao: "Torneira plástica robusta para uso em jardins e áreas externas, com fácil acionamento e resistência ao clima. Indicado para pontos de água em residências e comércios, oferecendo boa vedação e longa vida útil."
+    }
+    ];
+
+    const catalogoGrid = document.querySelector('#catalogo-grid');
+
+    const criarCardProduto = (produto) => {
+    const card = document.createElement('article');
+    card.classList.add('card', 'product-card');
+
+    const imagemHtml = produto.imagem
+        ? `<img src="${produto.imagem}" alt="${produto.nome}">`
+        : `<div class="product-placeholder" aria-hidden="true">Sem imagem</div>`;
+
+    card.innerHTML = `
+        <div class="product-media">
+        ${imagemHtml}
+        <span class="product-code">Cód. ${produto.codigo}</span>
+        </div>
+        <div class="product-content">
+        <h3>${produto.nome}</h3>
+        <p class="product-class">${produto.classe}</p>
+        <p class="product-description">${produto.descricao}</p>
+        </div>
+    `;
+
+    return card;
+    };
+
+    if (catalogoGrid) {
+    catalogoProdutos.forEach((produto) => {
+        catalogoGrid.appendChild(criarCardProduto(produto));
+    });
+    }
+
+    /* ===========================
     ANIMAÇÃO AO ROLAR A PÁGINA
     =========================== */
     const elementos = document.querySelectorAll('.card, .section-title, .about p');
