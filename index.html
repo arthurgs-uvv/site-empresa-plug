@@ -27,6 +27,7 @@
         <a href="#home">Home</a>
         <a href="./produtos.html" rel="next">Produtos</a>
         <a href="#contato">Contato</a>
+        <a href="#fale-conosco" class="nav-cta">fale conosco</a>
       </nav>
 
     </div>
@@ -69,6 +70,47 @@
             <img src="./imagens/logos-fornecedores/fortlev-2.png" alt="Logo Fortlev">
           </div>
         </div>
+      </div>
+    </section>
+
+    <section class="talk-to-us" id="fale-conosco">
+      <div class="container talk-grid">
+        <div class="talk-content">
+          <img src="./imagens/plug_logo_novo_sem_fundo - Editado.png" alt="Logo PLUG Elétrico e Hidráulico">
+          <h2>Mais que uma venda, trazemos soluções</h2>
+          <p class="talk-brand-text">Com a identidade da PLUG em cada atendimento, oferecemos suporte especializado para elétrica, hidráulica, EPIs e ferramentas.</p>
+          <p class="talk-small-text">Trabalhamos com materiais para obras, manutenção residencial e demandas industriais, sempre com qualidade e rapidez.</p>
+        </div>
+
+        <form class="talk-form" id="fale-conosco-form" novalidate>
+          <h3>Fale Conosco</h3>
+
+          <div class="form-field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" required>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+
+          <div class="form-field">
+            <label for="descricao">Descrição</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            <span class="error-message" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn form-submit">Enviar e-mail</button>
+        </form>
       </div>
     </section>
 
