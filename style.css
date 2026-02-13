@@ -66,6 +66,20 @@ header nav{
   transition: opacity 0.2s ease;
 }
 
+.nav .nav-cta{
+  background: var(--amarelo);
+  color:#000;
+  padding:8px 14px;
+  border-radius:6px;
+  text-transform: lowercase;
+}
+
+.nav .nav-cta:hover{
+  color:#000;
+  background:var(--amarelo2);
+  opacity:1;
+}
+
 .nav a:hover{
   opacity: 0.8;
   color:#FFB300;
@@ -264,6 +278,99 @@ section + section{
   filter: drop-shadow(0 6px 10px rgba(0,0,0,.12));
 }
 
+.talk-to-us{
+  background:#fff;
+}
+
+.talk-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:32px;
+  align-items:start;
+}
+
+.talk-content img{
+  max-width:180px;
+  margin-bottom:18px;
+}
+
+.talk-content h2{
+  font-family:'Montserrat', sans-serif;
+  font-size:2rem;
+  color:var(--azul);
+  margin-bottom:16px;
+}
+
+.talk-brand-text{
+  font-size:1rem;
+  color:#2f2f2f;
+  line-height:1.6;
+  margin-bottom:10px;
+}
+
+.talk-small-text{
+  font-size:0.9rem;
+  color:#666;
+  line-height:1.5;
+}
+
+.talk-form{
+  background:#f9fbfd;
+  border:1px solid #dfe6ef;
+  border-radius:10px;
+  padding:24px;
+}
+
+.talk-form h3{
+  font-family:'Montserrat', sans-serif;
+  color:var(--azul);
+  margin-bottom:18px;
+}
+
+.form-field{
+  margin-bottom:14px;
+}
+
+.form-field label{
+  display:block;
+  font-weight:600;
+  margin-bottom:6px;
+}
+
+.form-field input,
+.form-field textarea{
+  width:100%;
+  border:1px solid #c8d3e0;
+  border-radius:6px;
+  padding:10px 12px;
+  font-family:'Open Sans', sans-serif;
+  font-size:0.95rem;
+}
+
+.form-field input:focus,
+.form-field textarea:focus{
+  outline:none;
+  border-color:#4f78ab;
+}
+
+.form-field input.invalid,
+.form-field textarea.invalid{
+  border-color:#d93025;
+}
+
+.error-message{
+  display:block;
+  color:#d93025;
+  font-size:0.82rem;
+  min-height:16px;
+  margin-top:4px;
+}
+
+.form-submit{
+  border:none;
+  cursor:pointer;
+}
+
 .about{
   background:#fff;
 }
@@ -411,6 +518,18 @@ nav a.active{
 
   .logo img{
     height:42px;
+  }
+
+  .talk-grid{
+    grid-template-columns:1fr;
+  }
+
+  .talk-content{
+    text-align:center;
+  }
+
+  .talk-content img{
+    margin:0 auto 18px;
   }
 
   .footer-brand img{
