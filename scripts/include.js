@@ -2,10 +2,20 @@ async function includeHTML(id, file) {
   const el = document.getElementById(id);
   if (!el) return;
 
-  const res = await fetch(file);
-  const text = await res.text();
-  el.innerHTML = text;
+  try {
+    const res = await fetch(file);
+    if (!res.ok) {
+      throw new Error(`Falha ao carregar ${file}: ${res.status}`);
+    }
+
+    const text = await res.text();
+    el.innerHTML = text;
+  } catch (error) {
+    console.error(error);
+  }
 }
 
-includeHTML("header", "páginas/header.html");
-includeHTML("footer", "páginas/footer.html");
+Promise.all([
+  includeHTML('header', 'páginas/header.html'),
+  includeHTML('footer', 'páginas/footer.html')
+]);
