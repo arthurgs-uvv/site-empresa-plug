@@ -6,6 +6,7 @@
   --cinza:#f4f6f8;
 }
 
+
 *{margin:0;padding:0;box-sizing:border-box;}
 
 body{
@@ -302,14 +303,14 @@ section + section{
 }
 
 .talk-brand-text{
-  font-size:1rem;
+  font-size:1.2rem;
   color:#2f2f2f;
   line-height:1.6;
   margin-bottom:10px;
 }
 
 .talk-small-text{
-  font-size:0.9rem;
+  font-size:1rem;
   color:#666;
   line-height:1.5;
 }
