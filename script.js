@@ -167,3 +167,57 @@
         }
     });
     });
+
+
+/* ===========================
+FORMULÁRIO FALE CONOSCO
+=========================== */
+const faleConoscoForm = document.querySelector('#fale-conosco-form');
+
+if (faleConoscoForm) {
+  const camposObrigatorios = faleConoscoForm.querySelectorAll('input[required], textarea[required]');
+
+  const validarCampo = (campo) => {
+    const mensagemErro = campo.parentElement.querySelector('.error-message');
+    const valorLimpo = campo.value.trim();
+
+    if (!valorLimpo) {
+      campo.classList.add('invalid');
+      mensagemErro.textContent = 'Este campo é obrigatório.';
+      return false;
+    }
+
+    campo.classList.remove('invalid');
+    mensagemErro.textContent = '';
+    return true;
+  };
+
+  camposObrigatorios.forEach((campo) => {
+    campo.addEventListener('input', () => validarCampo(campo));
+    campo.addEventListener('blur', () => validarCampo(campo));
+  });
+
+  faleConoscoForm.addEventListener('submit', (evento) => {
+    let formularioValido = true;
+
+    camposObrigatorios.forEach((campo) => {
+      const campoValido = validarCampo(campo);
+      if (!campoValido) {
+        formularioValido = false;
+      }
+    });
+
+    if (!formularioValido) {
+      evento.preventDefault();
+      return;
+    }
+
+    evento.preventDefault();
+    faleConoscoForm.reset();
+    camposObrigatorios.forEach((campo) => {
+      campo.classList.remove('invalid');
+      const mensagemErro = campo.parentElement.querySelector('.error-message');
+      mensagemErro.textContent = '';
+    });
+  });
+}
