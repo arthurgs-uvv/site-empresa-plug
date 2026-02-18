@@ -153,17 +153,28 @@ window.addEventListener('scroll', () => {
   const offset = header.offsetHeight;
   const scrollPos = window.scrollY + offset + 20;
 
+  let encontrou = false;
+
   secoes.forEach((sec) => {
     if (
       scrollPos >= sec.offsetTop &&
       scrollPos < sec.offsetTop + sec.offsetHeight
     ) {
-      links.forEach((link) => link.classList.remove('active'));
+      links.forEach(link => link.classList.remove('active'));
+
       const linkAtivo = document.querySelector(`nav a[href="#${sec.id}"]`);
       if (linkAtivo) linkAtivo.classList.add('active');
+
+      encontrou = true;
     }
   });
+
+  // se nenhuma seção estiver ativa
+  if (!encontrou) {
+    links.forEach(link => link.classList.remove('active'));
+  }
 });
+
 
 /* ===========================
 FORMULÁRIO FALE CONOSCO
