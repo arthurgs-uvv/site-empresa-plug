@@ -34,7 +34,7 @@ header{
 nav a{
   font-family:'Montserrat', sans-serif;
   font-weight:800;
-  font-size:1.2rem;
+  font-size:1.30rem;
 }
 
 header nav{
@@ -69,13 +69,13 @@ nav a:hover{
   color:#FFB300;
 }
 
-/*
-nav a.active{
+
+nav a:active{
   color: var(--amarelo);
   border-bottom: 2px solid var(--amarelo);
   padding-bottom: 3px;
 }
-*/
+
 
 .nav-cta{
   background: var(--amarelo);
