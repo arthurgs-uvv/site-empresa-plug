@@ -28,46 +28,46 @@ CATÁLOGO DE PRODUTOS
 =========================== */
 const catalogoProdutos = [
   {
-    codigo: "005843",
-    imagem: "",
-    nome: "Adesivo Plástico PVC Amanco 175g com Pincel",
-    classe: "hidraulica-adesivos",
-    descricao: "Adesivo indicado para instalações hidráulicas em PVC rígido, promovendo união segura e acabamento resistente. Ideal para reparos e novas obras, oferece aplicação prática com pincel acoplado, garantindo distribuição uniforme do produto. Sua fórmula facilita o encaixe das conexões, reduz vazamentos e mantém a durabilidade do sistema mesmo em uso contínuo."
+    codigo: "010214",
+    imagem: "../style/imagens/webp/disjuntor-weg.webp",
+    nome: "Disjuntor Unipolar WEG – 10A / 16A / 20A / 25A / 32A / 40A",
+    classe: "eletrica-protecao",
+    descricao: "O Disjuntor Unipolar WEG é utilizado para proteção de circuitos elétricos contra sobrecargas e curtos-circuitos em instalações residenciais e comerciais. Disponível nas correntes de 10A, 16A, 20A, 25A, 32A e 40A, atende diferentes demandas de consumo elétrico. Fabricado com alto padrão de qualidade, garante segurança, confiabilidade e longa vida útil. Compatível com trilho DIN e quadros de distribuição padrão, é um dos itens mais vendidos do segmento elétrico, sendo indispensável para instalações seguras e dentro das normas técnicas."
   },
   {
-    codigo: "009214",
-    imagem: "",
-    nome: "Conector de Emenda com Trava 32A",
-    classe: "eletrica-conectores",
-    descricao: "Conector rápido para instalações elétricas com trava de segurança, ideal para emendas de condutores em quadros e caixas de passagem. Proporciona fixação firme, reduz risco de aquecimento e otimiza a manutenção, garantindo organização e identificação dos circuitos."
+    codigo: "030118",
+    imagem: "../style/imagens/webp/lampada9w.webp",
+    nome: "Lâmpada LED Bulbo – 9W / 12W / 15W / 20W (Luz Branca 6500K)",
+    classe: "eletrica-iluminacao",
+    descricao: "A Lâmpada LED Bulbo é ideal para iluminação residencial e comercial, oferecendo economia de energia e alta eficiência luminosa. Disponível nas potências de 9W, 12W, 15W e 20W, adapta-se a diferentes ambientes e necessidades. Emite luz branca fria 6500K, proporcionando maior claridade e conforto visual. Possui longa vida útil, acendimento instantâneo e baixo consumo. Compatível com soquete padrão, é um dos produtos de maior giro no varejo elétrico."
   },
   {
-    codigo: "006552",
-    imagem: "",
-    nome: "Fita Isolante Profissional 20m",
-    classe: "eletrica-isolantes",
-    descricao: "Fita isolante com alta resistência térmica e excelente aderência, indicada para acabamentos em fios e cabos. Mantém o isolamento por mais tempo, evitando ressecamento e desprendimento em ambientes internos e externos."
+    codigo: "060101",
+    imagem: "../style/imagens/webp/cabo-flexível.webp",
+    nome: "Cabo Flexível Antichama 750V – 1,5mm² / 2,5mm² / 4mm² / 6mm²",
+    classe: "eletrica-cabos",
+    descricao: "O Cabo Flexível Antichama 750V é indicado para instalações elétricas residenciais, comerciais e industriais leves. Disponível nas bitolas de 1,5mm², 2,5mm², 4mm² e 6mm², atende diferentes circuitos e níveis de carga. Fabricado com condutor de cobre e isolamento antichama, garante segurança, flexibilidade e excelente condução elétrica. Ideal para tomadas, iluminação e equipamentos, é um dos itens mais vendidos do varejo elétrico."
   },
   {
-    codigo: "010338",
-    imagem: "",
-    nome: "Luva de Segurança Nitrílica",
-    classe: "epis-protecao",
-    descricao: "Luva nitrílica de alta resistência para proteção das mãos em serviços de manutenção, construção e manuseio de produtos químicos leves. Oferece conforto, flexibilidade e ótima aderência, permitindo precisão no trabalho diário."
+    codigo: "081900",
+    imagem: "../style/imagens/webp/mangueira_corrugada.webp",
+    nome: "Conduíte Corrugado – 20mm / 25mm / 32mm",
+    classe: "eletrica-conduites",
+    descricao: "O Conduíte Corrugado é utilizado para proteção e organização de fios e cabos elétricos em instalações embutidas. Disponível nos diâmetros de 20mm, 25mm e 32mm, adapta-se a diferentes quantidades de cabos. Flexível e resistente, facilita a instalação e protege contra danos mecânicos. Amplamente utilizado em obras residenciais e comerciais, é um item essencial no segmento elétrico."
   },
   {
-    codigo: "004770",
-    imagem: "",
-    nome: "Serra Copo Bi-metal 60mm",
-    classe: "ferramentas-corte",
-    descricao: "Serra copo bi-metal para cortes em metal, madeira e PVC, com excelente durabilidade e acabamento preciso. Indispensável para instalações elétricas e hidráulicas, garantindo abertura uniforme em caixas e painéis."
+    codigo: "075800",
+    imagem: "../style/imagens/webp/cloro_multiacao.webp",
+    nome: "Cloro Granulado para Piscina – 1kg / 5kg / 10kg",
+    classe: "piscina-tratamento",
+    descricao: "O Cloro Granulado para Piscina é utilizado para desinfecção da água, eliminando bactérias e microrganismos. Disponível em embalagens de 1kg, 5kg e 10kg, atende piscinas residenciais e comerciais. Fácil de aplicar, garante água limpa, segura e cristalina. Produto essencial para manutenção regular de piscinas, com alta recorrência de compra."
   },
   {
-    codigo: "007901",
-    imagem: "",
-    nome: "Torneira Plástica para Jardim 3/4",
-    classe: "hidraulica-conexoes",
-    descricao: "Torneira plástica robusta para uso em jardins e áreas externas, com fácil acionamento e resistência ao clima. Indicado para pontos de água em residências e comércios, oferecendo boa vedação e longa vida útil."
+    codigo: "040552",
+    imagem: "../style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
   }
 ];
 

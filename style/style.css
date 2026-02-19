@@ -146,7 +146,7 @@ section + section{
 }
 
 .product-media img{
-  width:100%;
+  width:80%;
   height:180px;
   object-fit:cover;
 }
