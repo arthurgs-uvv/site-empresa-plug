@@ -26,6 +26,7 @@ if (heroTitulo) {
 /* ===========================
 CATÁLOGO DE PRODUTOS
 =========================== */
+
 const catalogoProdutos = [
   {
     codigo: "010214",
@@ -139,7 +140,7 @@ const catalogoProdutos = [
     classe: "eletrica-acessorios",
     descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
   }
-];
+]
 
 const catalogoGrid = document.querySelector('#produtos-grid');
 const botaoVerMaisProdutos = document.querySelector('#btn-ver-mais-produtos');
