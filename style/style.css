@@ -199,6 +199,21 @@ section + section{
   overflow:hidden;
 }
 
+.produtos-ver-mais{
+  display:flex;
+  justify-content:center;
+  margin-top:32px;
+}
+
+#btn-ver-mais-produtos[hidden]{
+  display:none;
+}
+
+#btn-ver-mais-produtos{
+  border:none;
+  cursor:pointer;
+}
+
 .suppliers{
   background:#fff;
 }

@@ -68,10 +68,82 @@ const catalogoProdutos = [
     nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
     classe: "eletrica-acessorios",
     descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
+  },
+  {
+    codigo: "040552",
+    imagem: "style/imagens/webp/fita-isolante.webp",
+    nome: "Fita Isolante Antichama – 19mm x 5m / 10m / 20m",
+    classe: "eletrica-acessorios",
+    descricao: "A Fita Isolante Antichama é utilizada para isolamento e proteção de fios e cabos elétricos. Disponível nos comprimentos de 5m, 10m e 20m, atende desde pequenos reparos até instalações completas. Produzida com material resistente e antichama, oferece segurança contra curtos-circuitos. Essencial para eletricistas e instaladores, é um dos produtos mais vendidos do segmento elétrico."
   }
 ];
 
 const catalogoGrid = document.querySelector('#produtos-grid');
+const botaoVerMaisProdutos = document.querySelector('#btn-ver-mais-produtos');
+const LIMITE_INICIAL_PRODUTOS = 10;
 
 const criarCardProduto = (produto) => {
   const card = document.createElement('article');
@@ -96,12 +168,33 @@ const criarCardProduto = (produto) => {
   return card;
 };
 
-if (catalogoGrid) {
-  catalogoProdutos.forEach((produto) => {
+const renderizarProdutos = (quantidade) => {
+  if (!catalogoGrid) return;
+
+  catalogoGrid.innerHTML = '';
+  catalogoProdutos.slice(0, quantidade).forEach((produto) => {
     catalogoGrid.appendChild(criarCardProduto(produto));
   });
-}
+};
 
+if (catalogoGrid) {
+  const totalProdutos = catalogoProdutos.length;
+  const quantidadeInicial = Math.min(LIMITE_INICIAL_PRODUTOS, totalProdutos);
+
+  renderizarProdutos(quantidadeInicial);
+
+  if (botaoVerMaisProdutos) {
+    if (totalProdutos <= LIMITE_INICIAL_PRODUTOS) {
+      botaoVerMaisProdutos.hidden = true;
+    } else {
+      botaoVerMaisProdutos.hidden = false;
+      botaoVerMaisProdutos.addEventListener('click', () => {
+        renderizarProdutos(totalProdutos);
+        botaoVerMaisProdutos.hidden = true;
+      });
+    }
+  }
+}
 /* ===========================
 ANIMAÇÃO AO ROLAR A PÁGINA
 =========================== */
