@@ -79,7 +79,7 @@ export const catalogoProdutos = [
     {
         codigo: "000012",
         imagem: "style/imagens/webp/.webp",
-        nome: "Acabamentos para Registro Diversos Modelos",
+        nome: "Acabamentos para Registro Docol, Deca e Fabrimar",
         classe: "hidraulica",
         descricao: "Os Acabamentos para Registro são utilizados para acionamento e acabamento de válvulas hidráulicas em ambientes residenciais e comerciais."
     },
@@ -93,7 +93,7 @@ export const catalogoProdutos = [
     {
         codigo: "000014",
         imagem: "style/imagens/webp/.webp",
-        nome: "Alicates Universais 8 Polegadas",
+        nome: 'Alicates Universais 8" Sata',
         classe: "ferramentas",
         descricao: "Os Alicates Universais são utilizados para corte, torção e ajuste de fios em serviços elétricos e manutenções gerais."
     },
@@ -121,9 +121,9 @@ export const catalogoProdutos = [
     {
         codigo: "000020",
         imagem: "style/imagens/webp/.webp",
-        nome: "Conectores e Bornes Elétricos",
+        nome: "Conectores KS",
         classe: "eletrica",
-        descricao: "Os Conectores e Bornes são utilizados para realizar conexões seguras em circuitos elétricos residenciais e industriais."
+        descricao: "Os Conectores KS são utilizados para realizar conexões seguras em circuitos elétricos residenciais e industriais."
     },
     {
         codigo: "000021",
