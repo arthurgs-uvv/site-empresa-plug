@@ -32,6 +32,16 @@ import {catalogoProdutos} from "./catalogoProdutos.js"
 const catalogoGrid = document.querySelector('#produtos-grid');
 const botaoVerMaisProdutos = document.querySelector('#btn-ver-mais-produtos');
 const LIMITE_INICIAL_PRODUTOS = 10;
+const catalogoProdutosEmbaralhado = [...catalogoProdutos];
+
+const embaralharProdutos = (produtos) => {
+  for (let i = produtos.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [produtos[i], produtos[j]] = [produtos[j], produtos[i]];
+  }
+};
+
+embaralharProdutos(catalogoProdutosEmbaralhado);
 
 const criarCardProduto = (produto) => {
   const card = document.createElement('article');
@@ -60,13 +70,13 @@ const renderizarProdutos = (quantidade) => {
   if (!catalogoGrid) return;
 
   catalogoGrid.innerHTML = '';
-  catalogoProdutos.slice(0, quantidade).forEach((produto) => {
+  catalogoProdutosEmbaralhado.slice(0, quantidade).forEach((produto) => {
     catalogoGrid.appendChild(criarCardProduto(produto));
   });
 };
 
 if (catalogoGrid) {
-  const totalProdutos = catalogoProdutos.length;
+  const totalProdutos = catalogoProdutosEmbaralhado.length;
   const quantidadeInicial = Math.min(LIMITE_INICIAL_PRODUTOS, totalProdutos);
 
   renderizarProdutos(quantidadeInicial);

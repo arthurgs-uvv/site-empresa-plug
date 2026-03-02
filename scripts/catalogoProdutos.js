@@ -112,67 +112,102 @@ export const catalogoProdutos = [
         descricao: "Os Interruptores e Tomadas são utilizados para controle e distribuição de energia elétrica em instalações residenciais e comerciais."
     },
     {
-        codigo: "000019",
+        codigo: "000017",
         imagem: "style/imagens/webp/.webp",
         nome: "Mangueiras Flexíveis para Jardim",
         classe: "hidraulica",
         descricao: "As Mangueiras Flexíveis são utilizadas para irrigação e limpeza em áreas externas residenciais e comerciais."
     },
     {
-        codigo: "000020",
+        codigo: "000018",
         imagem: "style/imagens/webp/.webp",
         nome: "Conectores KS",
         classe: "eletrica",
         descricao: "Os Conectores KS são utilizados para realizar conexões seguras em circuitos elétricos residenciais e industriais."
     },
     {
-        codigo: "000021",
+        codigo: "000019",
         imagem: "style/imagens/webp/.webp",
         nome: "Chuveiros Elétricos",
         classe: "eletrica",
         descricao: "Os Chuveiros Elétricos são utilizados para aquecimento instantâneo de água em banheiros residenciais e comerciais."
     },
     {
-        codigo: "000022",
+        codigo: "000020",
         imagem: "style/imagens/webp/.webp",
         nome: "Caixas de Passagem Elétricas",
         classe: "eletrica",
         descricao: "As Caixas de Passagem são utilizadas para proteção e organização de conexões elétricas em instalações residenciais e comerciais."
     },
     {
-        codigo: "000023",
+        codigo: "000021",
         imagem: "style/imagens/webp/.webp",
-        nome: "Registros e Válvulas Hidráulicas",
+        nome: "Registros Esfera Soldável",
         classe: "hidraulica",
-        descricao: "Os Registros e Válvulas são utilizados para controle do fluxo de água em sistemas hidráulicos residenciais e comerciais."
+        descricao: "Os Registros são utilizados para controle do fluxo de água em sistemas hidráulicos residenciais e comerciais."
     },
     {
-        codigo: "000025",
+        codigo: "000022",
         imagem: "style/imagens/webp/.webp",
         nome: "Caixas de Luz 4x2 e 4x4",
         classe: "eletrica",
         descricao: "As Caixas de Luz são utilizadas para instalação de tomadas e interruptores em sistemas elétricos residenciais e comerciais."
     },
     {
-        codigo: "000026",
+        codigo: "000023",
         imagem: "style/imagens/webp/.webp",
         nome: "Caixas de Comando Elétrico",
         classe: "eletrica",
         descricao: "As Caixas de Comando são utilizadas para proteção de componentes elétricos em painéis e sistemas de automação."
     },
     {
-        codigo: "000028",
+        codigo: "000024",
         imagem: "style/imagens/webp/.webp",
         nome: "Mangueiras Metálicas para Gás",
         classe: "hidraulica",
         descricao: "As Mangueiras Metálicas são utilizadas para condução segura de gás em instalações domésticas e comerciais."
     },
     {
-        codigo: "000029",
+        codigo: "000025",
         imagem: "style/imagens/webp/.webp",
-        nome: "Discos de Lixa Velcro e Ferro",
+        nome: "Discos de Lixa Velcro",
         classe: "ferramentas",
         descricao: "Os Discos de Lixa são utilizados para acabamento e desbaste de superfícies em serviços profissionais e domésticos."
+    },
+    {
+        codigo: "000026",
+        imagem: "style/imagens/webp/.webp",
+        nome: "DPS Dispositivo de Proteção contra Surtos",
+        classe: "elétrica",
+        descricao: "O DPS é utilizado para proteger instalações elétricas e equipamentos contra surtos de tensão causados por raios ou oscilações na rede."
+    },
+    {
+        codigo: "000027",
+        imagem: "style/imagens/webp/.webp",
+        nome: "Contator Elétrico",
+        classe: "elétrica",
+        descricao: "O contator elétrico é aplicado no acionamento e controle de motores, iluminação e circuitos automatizados."
+        },
+        {
+        codigo: "000028",
+        imagem: "style/imagens/webp/.webp",
+        nome: "DR Interruptor Diferencial Residual",
+        classe: "elétrica",
+        descricao: "O interruptor DR é essencial para proteção contra choques elétricos e fugas de corrente em instalações residenciais e comerciais."
+    },
+    {
+        codigo: "000029",
+        imagem: "style/imagens/webp/.webp",
+        nome: "Óculos de Segurança Fumê",
+        classe: "epi",
+        descricao: "Os óculos de segurança protegem os olhos contra partículas, poeiras e respingos durante trabalhos técnicos ou construção."
+    },
+    {
+        codigo: "000030",
+        imagem: "style/imagens/webp/refletor-led.webp",
+        nome: "Refletor LED Slim",
+        classe: "iluminacao",
+        descricao: "O refletor LED é indicado para iluminação externa e interna de áreas amplas, como fachadas, jardins e galpões."
     },
     {
         codigo: "000031",
@@ -182,11 +217,18 @@ export const catalogoProdutos = [
         descricao: "As Luminárias são utilizadas para iluminação de ambientes internos e externos em projetos residenciais e comerciais."
     },
     {
-        codigo: "000033",
+        codigo: "000032",
         imagem: "style/imagens/webp/.webp",
         nome: "Lonas Plásticas e Polietileno",
         classe: "utilidades",
         descricao: "As Lonas Plásticas são utilizadas para proteção e cobertura de materiais em obras e aplicações gerais."
+    },
+    {
+        codigo: "000033",
+        imagem: "style/imagens/webp/.webp",
+        nome: "Luvas de Proteção Profissional",
+        classe: "epi",
+        descricao: "As Luvas de Proteção são utilizadas para segurança das mãos em serviços profissionais e industriais."
     },
     {
         codigo: "000034",
@@ -201,6 +243,13 @@ export const catalogoProdutos = [
         nome: "Anéis de Cera para Vedação de Vaso",
         classe: "hidraulica",
         descricao: "Os Anéis de Cera são utilizados para vedação entre vaso sanitário e tubulação de esgoto."
+    },
+    {
+        codigo: "000036",
+        imagem: "style/imagens/webp/.webp",
+        nome: "Capacetes de Segurança EPI",
+        classe: "epi",
+        descricao: "Os Capacetes de Segurança são utilizados para proteção da cabeça em trabalhos e atividades de risco."
     },
     {
         codigo: "000037",
@@ -286,18 +335,8 @@ export const catalogoProdutos = [
         classe: "ferramentas",
         descricao: "Os Serrotes são utilizados para corte de madeira, plástico e outros materiais em serviços gerais."
     },
-    {
-        codigo: "000049",
-        imagem: "style/imagens/webp/.webp",
-        nome: "Capacetes de Segurança EPI",
-        classe: "epi",
-        descricao: "Os Capacetes de Segurança são utilizados para proteção da cabeça em trabalhos e atividades de risco."
-    },
-    {
-        codigo: "000050",
-        imagem: "style/imagens/webp/.webp",
-        nome: "Luvas de Proteção Profissional",
-        classe: "epi",
-        descricao: "As Luvas de Proteção são utilizadas para segurança das mãos em serviços profissionais e industriais."
-    },
 ]
+
+catalogoProdutos.forEach(item=>{
+  item.imagem = `style/imagens/webp/${item.codigo}.webp`
+})
